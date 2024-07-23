@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header .nav a {
+    margin-left: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-nav a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.profile-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-panel {
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.center-panel {
+    width: 50%;
+    padding: 20px;
+}
+
+.right-panel {
+    width: 25%;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.rating-graph img {
+    width: 100%;
+}
+
+.problems-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.summary-item {
+    width: 48%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pay-attention, .streams, .top-rated, .top-contributors, .find-user {
+    margin-bottom: 20px;
+}
+
+.top-rated table, .top-contributors table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.top-rated th, .top-rated td, .top-contributors th, .top-contributors td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.find-user input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.find-user button {
+    width: 100%;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.find-user button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.footer img {
+    margin-top: 10px;
+}

@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header .nav a {
+    margin-left: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+.header .nav a:first-of-type {
+    margin-right: 5px; /* Add some space after the "Enter" link */
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd; /* Add border to all sides */
+}
+
+.main-nav a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.login-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-text {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the text */
+}
+
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; /* Add margin-bottom to create space */
+}
+
+.login-form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-form-box h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group-remember {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password,
+.use-gmail {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.forgot-password:hover,
+.use-gmail:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.footer img {
+    margin-top: 0px;
+}
+
+.footer-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
